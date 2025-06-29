@@ -1,4 +1,4 @@
-include <stdio.h> #include <stdlib.h>
+include <stdio.h> 
 
 // Function to compress the file using Run-Length Encoding void compressFile(const char *inputFile, const char *outputFile) { FILE *in = fopen(inputFile, "r"); FILE *out = fopen(outputFile, "w");
 
